@@ -18,7 +18,7 @@ export default function Footer({ className = '' }: { className: string }) {
       <br />
       <a
         className="footer-link"
-        href="https://github.com/tatasadi/stats-preview-card-component"
+        href="https://github.com/tatasadi/testimonials-grid-section"
         target="_blank"
         rel="noreferrer"
       >
