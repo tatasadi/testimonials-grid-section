@@ -7,8 +7,8 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <main className="grid grid-cols-1 gap-6 px-6 py-[4.5rem]">
-      <TestimonialCard className="bg-moderate-violet">
+    <main className="grid grid-cols-1 gap-6 px-6 py-[4.5rem] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <TestimonialCard className="bg-moderate-violet sm:col-span-2">
         <TestimonialCard.Header title="Daniel Clifford" subtitle="Verified Graduate" className="text-white">
           <TestimonialCard.Icon
             src="/images/image-daniel.jpg"
@@ -59,7 +59,7 @@ export default function Index() {
         </TestimonialCard.Body>
       </TestimonialCard>
 
-      <TestimonialCard className="bg-very-dark-blackish-blue">
+      <TestimonialCard className="bg-very-dark-blackish-blue  sm:col-span-2">
         <TestimonialCard.Header title="Patrick Abrams" subtitle="Verified Graduate" className="text-white">
           <TestimonialCard.Icon
             src="/images/image-patrick.jpg"
@@ -81,7 +81,7 @@ export default function Index() {
         </TestimonialCard.Body>
       </TestimonialCard>
 
-      <TestimonialCard className="bg-white text-very-dark-grayish-blue">
+      <TestimonialCard className="bg-white text-very-dark-grayish-blue sm:col-span-2 md:col-span-3 lg:col-span-1 lg:col-start-4 lg:row-span-2 lg:row-start-1">
         <TestimonialCard.Header title="Kira Whittle" subtitle="Verified Graduate">
           <TestimonialCard.Icon src="/images/image-kira.jpg" alt="Kira Whittle" />
         </TestimonialCard.Header>
