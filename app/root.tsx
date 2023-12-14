@@ -29,7 +29,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="flex min-h-screen flex-col items-center justify-center">
+      <body className="flex min-h-screen flex-col items-center justify-center bg-light-grayish-blue">
         <Outlet />
         <Footer className="m-4 mt-auto" />
         <ScrollRestoration />
