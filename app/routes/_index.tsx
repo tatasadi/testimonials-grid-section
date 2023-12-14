@@ -7,13 +7,13 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <main className="grid grid-cols-1 gap-6 px-6 py-[4.5rem] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <main className="grid max-w-6xl grid-cols-1 gap-6 px-6 py-[4.5rem] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       <TestimonialCard className="bg-moderate-violet sm:col-span-2">
         <TestimonialCard.Header title="Daniel Clifford" subtitle="Verified Graduate" className="text-white">
           <TestimonialCard.Icon
             src="/images/image-daniel.jpg"
             alt="Daniel Clifford"
-            className="border-light-violet border-2"
+            className="border-2 border-light-violet"
           />
         </TestimonialCard.Header>
         <TestimonialCard.Body>
