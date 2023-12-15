@@ -8,12 +8,12 @@ export const meta: MetaFunction = () => {
 export default function Index() {
   return (
     <main className="grid max-w-6xl grid-cols-1 gap-6 px-6 py-[4.5rem] sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-      <TestimonialCard className="bg-moderate-violet sm:col-span-2">
+      <TestimonialCard className="bg-moderate-violet bg-[url('/images/bg-pattern-quotation.svg')] bg-[top_right_1.5rem] bg-no-repeat sm:col-span-2 sm:bg-[top_right_2rem] md:bg-[top_right_3.5rem] lg:bg-[top_right_5rem]">
         <TestimonialCard.Header title="Daniel Clifford" subtitle="Verified Graduate" className="text-white">
           <TestimonialCard.Icon
             src="/images/image-daniel.jpg"
             alt="Daniel Clifford"
-            className="border-2 border-light-violet"
+            className="border-light-violet border-2"
           />
         </TestimonialCard.Header>
         <TestimonialCard.Body>
